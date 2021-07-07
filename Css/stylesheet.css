@@ -1,0 +1,319 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.First{
+    background:#2A3B3E;
+    height:50px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+   
+}
+.first{
+    text-align: center;
+    
+}
+.first ul{
+    float:right;
+   
+}
+.first li{
+    list-style: none;
+    display:inline-block;
+    
+    margin-top:17px;
+    
+   
+}
+.first a{
+    text-decoration: none;
+    color:white;
+    padding:15px 10px;
+    background-color: #2A3B3E;
+    border: 1px solid #2A3B3E;
+    margin:15px;
+    padding-top: 17px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.first li.active a{
+    color:black;
+    background-color: white;
+    border:black;
+}
+
+.first a:hover{
+    color:black;
+    background-color: white;
+    
+}
+
+
+
+.logo{
+    
+    padding-left:10px;
+    width:100%;
+   
+    
+}
+.Logo{
+    width: 80px;
+    height: 40px;
+    
+    margin: 5px 0px 5px 20px;
+    
+    
+}
+
+
+.categories{
+    height:220vh;
+    width:15%;
+    background:#79797B;
+    padding:10px;
+    text-align: center;
+}
+.categories h2{
+padding-top: 30px;
+padding-left:10px;
+}
+.categories ul{
+    list-style: none;
+}
+.categories li{
+    padding:15px;
+    padding-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.categories a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    height: 30px;
+    padding:15px 10px;
+
+}
+.categories li.active a{
+    
+    background-color: #BCB8B8;
+    
+}
+.categories a:hover{
+    
+    background-color: #BCB8B8;
+    
+}
+.search{
+    position:absolute;
+    top:55px;
+    left:47%;
+    
+    background: #F9EFEF;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+    }
+    .search:hover > .search-txt{
+        width:240px;
+        padding: 0px 5px;
+    }
+    .search:hover > .search-btn{
+        background:white;
+        
+    }
+    .search-btn{
+    color:black;
+    
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .search-txt{
+        border: none;
+        background: none;
+        outline: none;
+        float:left;
+        padding:0px;
+        color:#333;
+        font-size:16px;
+        transition: 0.4s;
+        line-height: 20px;
+       width:0px;
+    }
+
+    
+
+.layout{
+   
+    width:100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.Container{
+    width:85%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 60px;
+    padding: 2px;
+    
+    
+
+}
+
+
+.cardcontent{
+    width:48%;
+   height: 50vh;;
+    display: flex;
+    margin-top: 0px;
+    background-color: #E5E5E5;
+    box-shadow:0px 2px 16px  rgb(18, 70, 57);
+    padding: 5px;
+    box-sizing: border-box;
+    margin:10px;
+    
+}
+
+
+.cardcontent img{
+    width:60%;
+    height: 50vh;
+    display: flex;
+}
+.blogcontent{
+    margin-left:1px;
+    width:35%;
+}
+
+.blogcontent p{
+margin:50px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.lorem{
+    padding:0px;
+    margin: 0px;
+}
+.blogPicture{
+    width:60%;
+    height:10vh;
+}
+.coco{
+    width:100%;
+    text-align: center;
+    margin:50px;
+    padding:20px;
+    
+}
+.blogPicture1{
+    width:60%;
+    height: 50vh;
+}
+.blogcontent {
+    margin:0px;
+    PADDING:0PX;
+    padding-left: 25px;
+    padding-top: 30px;
+    text-align: center;
+    width:40%;
+}
+.head{
+text-align: center;
+}
+.blogcontent1 p{
+    text-align: center;
+    margin:10px;
+    font-size: 20px;
+}
+.blogcontent a{
+    color:black;
+    text-decoration: none;
+    
+}
+.signinModal{
+    width:100%;
+    height:100vh;
+    background:rgba(0, 0, 0, 0.795);
+    position:fixed;
+    display:none;
+}
+
+.siginCard{
+    margin:5% 10% 10% 35%;
+    width:30%;
+    height: 70vh;
+    background:white;
+    box-shadow:0px 4px 8px #3a3a3a;
+    text-align:center;
+    padding:40px;
+
+}
+
+.inputLogin{
+    width:80%;
+    height:30px;
+    padding:10px 20px;
+    border:1px solid rgb(185, 182, 182);
+    margin:20px;
+
+}
+
+.loginbutton{
+    width:90%;
+    height:50px;
+    background:black;
+    cursor:pointer;
+    color:white
+}
+
+.close{
+    position:absolute;
+    /* right:25px; */
+    /* top :0; */
+    margin:-20px 20px 0px 10%;
+    color:black;
+    font-size:35px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.close:hover{
+    color:red;
+}
+.about{
+    background-color: rgb(139, 139, 139);
+    height:50px;
+    margin:0px;
+}
+.about h1{
+    text-align: center;
+}
+p{
+    color:black;
+    margin:50px 2px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;;
+}
+.block{
+    background-color:#F9EFEF;
+    width: 100%;
+    height:80vh;
+    background-image: url(../Images/location.jpg);
+    
+   
+}
+
